@@ -39,7 +39,7 @@
     NSLog(@"%@-%@-%@ \n",@(dayModel.year),@(dayModel.month),@(dayModel.day));
 }
 - (void)test30DaysSinceToday {
-    [_calendarVC updateWithOptionDays:15];
+    [_calendarVC updateWithOptionDays:30];
 }
 - (void)testUI {
 
